@@ -1,0 +1,475 @@
+       /*GLOBAL*/
+       
+       body {
+           background-color: #2e2f63;
+           color: #555;
+           font-family: Arial, Helvetica, sans-serif;
+           font-size: 16px;
+           line-height: 1.6em;
+           margin: 0;
+       }
+       
+       .background {
+           background-image: linear-gradient(to bottom right, rgb(4, 6, 100), rgb(127, 40, 209));
+           background-image: cover;
+           width: 100%;
+       }
+       
+       .container {
+           width: 80%;
+           margin: auto;
+           overflow: hidden;
+       }
+       /*NAVIGATION*/
+       
+       .NavContainer {
+           overflow: hidden;
+           margin: auto;
+       }
+       
+       .icons {
+           position: absolute;
+           top: 20px;
+           right: 16px;
+           padding-right: 50px;
+       }
+       
+       #navbar {
+           background-color: rgba(23, 7, 78, 0.336);
+           color: #fff;
+           padding-bottom: 1%;
+           padding-top: 1%;
+           text-align: center;
+       }
+       
+       nav ul {
+           list-style: none;
+       }
+       
+       #navbar li {
+           display: inline;
+       }
+       
+       #navbar a {
+           color: #fff;
+           text-decoration: none;
+           font-weight: bold;
+           font-size: 15px;
+           letter-spacing: 3px;
+           padding-left: 40px;
+           align-items: center;
+           text-shadow: 2px 2px 5px rgb(59, 59, 59);
+           font-family: sans-serif;
+       }
+       
+       #navbar a:hover {
+           color: #8f90ff;
+       }
+       /*HOMEPAGE*/
+       
+       #content {
+           text-align: center;
+       }
+       
+       #content h1 {
+           color: rgb(255, 255, 255);
+           font-family: monospace;
+           text-shadow: 2px 2px 5px rgb(0, 0, 0);
+           letter-spacing: -10px;
+           font-size: 150px;
+       }
+       
+       #content h3 {
+           color: rgb(255, 255, 255);
+           font-family: "tahoma";
+           text-shadow: 2px 2px 5px rgb(0, 0, 0);
+           font-size: 60px;
+       }
+       
+       #main {
+           line-height: 1.8;
+           color: rgb(160, 148, 206);
+           font-family: tahoma;
+           font-size: 25px;
+           float: left;
+           width: 70%;
+           padding-top: 150px;
+           box-sizing: border-box;
+       }
+       
+       #main h2 {
+           color: rgb(255, 255, 255);
+           font-family: tahoma;
+           text-shadow: 2px 2px 5px rgb(39, 20, 51);
+       }
+       
+       #main a {
+           color: #fff;
+           text-decoration: none;
+           font-weight: bold;
+           font-size: 40px;
+           letter-spacing: 3px;
+           padding-left: 40px;
+           align-items: center;
+           text-shadow: 2px 2px 5px rgb(59, 59, 59);
+           font-family: sans-serif;
+       }
+       
+       #main a:hover {
+           color: #8f90ff;
+       }
+       
+       #quote {
+           color: rgb(252, 252, 252);
+           font-family: georgia;
+           font-size: 40px;
+           float: right;
+           padding-right: 300px;
+           margin-top: 300px;
+           text-align: left;
+           letter-spacing: 1px;
+           color: rgb(162, 113, 253);
+           text-shadow: -1px 0 black, 0 1px rgb(152, 118, 247), 1px 0 rgb(192, 170, 253), 0 -1px rgb(192, 170, 253);
+       }
+       
+       .props1 {
+           opacity: .7;
+           float: right;
+           width: 40%;
+           height: 50%;
+           position: absolute;
+           left: 200px;
+           top: 988px;
+           background-image: url(props1.png);
+           background-repeat: no-repeat;
+       }
+       
+       .props2 {
+           opacity: .7;
+           float: right;
+           width: 40%;
+           height: 100%;
+           position: absolute;
+           right: 00px;
+           top: 200px;
+           background-image: url(props2.png);
+           background-repeat: no-repeat;
+       }
+       /*NAVIGATION BUTTONS*/
+       
+       .button {
+           position: absolute;
+           top: 20px;
+           left: 16px;
+           font-size: 18px;
+           border: none;
+           color: rgb(13, 12, 99);
+           padding: 8px 32px;
+           text-align: center;
+           text-decoration: none;
+           display: inline-block;
+           font-size: 16px;
+           margin: 4px 2px;
+           transition-duration: 0.4s;
+           cursor: pointer;
+       }
+       
+       .homebutton {
+           border-radius: 12px;
+           background-color: rgba(25, 9, 77, 0.336);
+           color: rgb(189, 175, 175);
+           border: 2px solid #b09ed3;
+           text-decoration: none;
+           font-weight: bold;
+           font-size: 15px;
+           letter-spacing: 3px;
+           align-items: center;
+           text-shadow: 2px 2px 5px rgb(59, 59, 59);
+           font-family: sans-serif;
+       }
+       
+       .homebutton:hover {
+           background-color: #5033b8;
+           color: white;
+       }
+       
+       .H_disabled {
+           opacity: 0.6;
+           cursor: not-allowed;
+           border-radius: 12px;
+           background-color: rgb(46, 19, 121);
+           color: rgb(255, 255, 255);
+           border: 2px solid #8b51f8;
+           text-decoration: none;
+           font-weight: bold;
+           font-size: 15px;
+           letter-spacing: 3px;
+           padding-left: 40px;
+           align-items: center;
+           text-shadow: 2px 2px 5px rgb(59, 59, 59);
+           font-family: sans-serif;
+       }
+       
+       .A_disabled {
+           opacity: 0.6;
+           cursor: not-allowed;
+           color: #fff;
+           text-decoration: none;
+           font-weight: bold;
+           font-size: 15px;
+           letter-spacing: 3px;
+           padding-left: 40px;
+           align-items: center;
+           text-shadow: 2px 2px 5px rgb(59, 59, 59);
+           font-family: sans-serif;
+       }
+       
+       .S_disabled {
+           opacity: 0.6;
+           cursor: not-allowed;
+           color: #fff;
+           text-decoration: none;
+           font-weight: bold;
+           font-size: 15px;
+           letter-spacing: 3px;
+           padding-left: 40px;
+           align-items: center;
+           text-shadow: 2px 2px 5px rgb(59, 59, 59);
+           font-family: sans-serif;
+       }
+       
+       .P_disabled {
+           opacity: 0.6;
+           cursor: not-allowed;
+           color: #fff;
+           text-decoration: none;
+           font-weight: bold;
+           font-size: 15px;
+           letter-spacing: 3px;
+           padding-left: 40px;
+           align-items: center;
+           text-shadow: 2px 2px 5px rgb(59, 59, 59);
+           font-family: sans-serif;
+       }
+       
+       .C_disabled {
+           opacity: 0.6;
+           cursor: not-allowed;
+           color: #fff;
+           text-decoration: none;
+           font-weight: bold;
+           font-size: 15px;
+           letter-spacing: 3px;
+           padding-left: 40px;
+           align-items: center;
+           text-shadow: 2px 2px 5px rgb(59, 59, 59);
+           font-family: sans-serif;
+       }
+       /*ABOUT*/
+       
+       #about h1 {
+           color: rgb(255, 255, 255);
+           font-family: monospace;
+           text-shadow: 2px 2px 5px rgb(0, 0, 0);
+           letter-spacing: 1px;
+           font-size: 100px;
+       }
+       
+       #about h2 {
+           color: rgb(255, 255, 255);
+           font-family: tahoma;
+           letter-spacing: 1px;
+           font-size: 30px;
+           color: rgb(166, 151, 248);
+           text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.397);
+       }
+       
+       .mypic {
+           opacity: .9;
+           border-radius: 0px;
+           width: 100%;
+           height: 100%;
+           position: absolute;
+           left: 1050px;
+           top: 395px;
+           background-image: url(mypic.png);
+           background-repeat: no-repeat;
+       }
+       /*PROJECTS*/
+       
+       div.gallery {
+           margin: 20px;
+           border: 1px solid rgb(255, 255, 255);
+           float: left;
+           width: 300px;
+           height: 200px;
+           margin-bottom: 410px;
+       }
+       
+       div.gallery:hover {
+           border: 10px solid rgb(196, 181, 250);
+           background-color: #5033b8;
+       }
+       
+       div.gallery img {
+           width: 300px;
+           height: 200px;
+       }
+       
+       div.desc {
+           padding: 0px;
+           text-align: center;
+           color: rgb(255, 255, 255);
+           font-family: monospace;
+           text-shadow: 2px 2px 5px rgb(0, 0, 0);
+           letter-spacing: 1px;
+           font-size: 30px;
+       }
+       /*SKILLS*/
+       
+       #skills {
+           line-height: 1;
+           color: rgb(160, 148, 206);
+           font-family: tahoma;
+           font-size: 25px;
+           float: left;
+           width: 70%;
+           padding-top: 50px;
+       }
+       
+       #skills h1 {
+           color: rgb(255, 255, 255);
+           font-family: monospace;
+           text-shadow: 2px 2px 5px rgb(0, 0, 0);
+           letter-spacing: 1px;
+           font-size: 100px;
+       }
+       
+       #skills h2 {
+           color: rgb(255, 255, 255);
+           font-family: tahoma;
+           text-shadow: 2px 2px 5px rgb(39, 20, 51);
+       }
+       
+       #skills p {
+           color: rgb(255, 255, 255);
+           font-size: 20px;
+       }
+       
+       .fill {
+           background-color: rgb(255, 255, 255);
+           width: 80%;
+           border-radius: 15px;
+       }
+       
+       .skill1 {
+           background-color: rgb(255, 61, 61);
+           width: 60%;
+           color: white;
+           padding: 1%;
+           text-align: right;
+           font-size: 20px;
+           border-radius: 15px;
+       }
+       
+       .skill2 {
+           background-color: rgb(238, 136, 68);
+           color: white;
+           padding: 1%;
+           text-align: right;
+           font-size: 20px;
+           border-radius: 15px;
+       }
+       
+       .skill3 {
+           background-color: rgb(76, 245, 104);
+           color: white;
+           padding: 1%;
+           text-align: right;
+           font-size: 20px;
+           border-radius: 15px;
+       }
+       
+       .skill4 {
+           background-color: rgb(219, 231, 49);
+           color: white;
+           padding: 1%;
+           text-align: right;
+           font-size: 20px;
+           border-radius: 15px;
+       }
+       
+       .skill5 {
+           background-color: rgb(59, 71, 238);
+           color: white;
+           padding: 1%;
+           text-align: right;
+           font-size: 20px;
+           border-radius: 15px;
+       }
+       
+       .html {
+           width: 70%;
+       }
+       
+       .php {
+           width: 35%;
+       }
+       
+       .react {
+           width: 40%;
+       }
+       
+       .design {
+           width: 70%;
+       }
+       
+       .coding {
+           width: 50%;
+       }
+       /*FOOTER*/
+       
+       #main-footer {
+           background-color: rgba(23, 7, 78, 0.336);
+           color: #fff;
+           text-align: center;
+           margin-top: 50px;
+           overflow: hidden;
+           text-decoration: underline;
+       }
+       
+       #about-footer {
+           background-color: rgba(23, 7, 78, 0.336);
+           color: #fff;
+           text-align: center;
+           margin-top: 380px;
+           overflow: hidden;
+           text-decoration: underline;
+       }
+       
+       #skills-footer {
+           background-color: rgba(23, 7, 78, 0.336);
+           color: #fff;
+           text-align: center;
+           margin-top: 80px;
+           overflow: hidden;
+           text-decoration: underline;
+       }
+       
+       #contact-footer {
+           background-color: rgba(23, 7, 78, 0.336);
+           color: #fff;
+           text-align: center;
+           margin-top: 20px;
+           overflow: hidden;
+           text-decoration: underline;
+       }
+       
+       #project-footer {
+           background-color: rgba(23, 7, 78, 0.336);
+           color: #fff;
+           text-align: center;
+           margin-top: 0px;
+           overflow: hidden;
+           text-decoration: underline;
+       }
